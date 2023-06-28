@@ -1,28 +1,33 @@
 # Simple CRUD API with Spring Boot and PostgreSQL
+
 - This project was made to learn the fundamentals of Spring Boot. It's a simple CRUD API that allows users to manage a list of customers. The project helped me understand
   1. The fundamentals of Spring Boot.
   2. Dependency injection
   3. Spring MVC and N-Tier Architecture (DOA-Business-Service layers). Layering in web applications, separating concerns into the controller, service, and repository layers.
   4. Connecting to a database hosted on Docker at a local port using Spring Data JPA.
 
+
 ## Technologies
 - Languages      : Java, SQL
 - Frameworks     : Spring (Spring Data), Spring Boot
 - Developer Tools: Docker, PostgreSQL, Postman
 
+## Features
+1. Add a customer to the database.
+    ![Add a Customer](images/add-a-customer.png "Add a Customer")
+
+2. Get a list of all customers in the database.
+
+3. Update a record of a customer in the databse.
+
+4. Delete a record of a customer in the database.
+
+
 ## How to run the project
 - Clone the repository
 - Ensure you have docker running on your machine.
 - Navigate to docker-compose.yml and add a user name and password for the database.
-  ```java
-  POSTGRES_USER: your-user-name
-  POSTGRES_PASSWORD: your-password
-  ```
 - Go to `application.yml` and change the username and password to the same values you used in the previous step.
-  ```java
-  username: your-user-name
-  password: your-password
-  ```
 - Run docker-compose up. This will start a PostgreSQL server running on port 5332.
 - Create a database called `customer` in the PostgreSQL server. (If you already have a PostgreSQL database change the url in `application.yml` to point to that databse)
   To create a database in the PostgreSQL server, run the following commands in order in terminal in your IDE:
