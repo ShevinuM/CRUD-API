@@ -12,16 +12,6 @@
 - Frameworks     : Spring (Spring Data), Spring Boot
 - Developer Tools: Docker, PostgreSQL, Postman
 
-## Features
-1. Add a customer to the database.
-    ![Add a Customer](images/add-a-customer.png "Add a Customer")
-2. Get a list of all customers in the database.
-    ![Get Customers](images/get-customers.png "Get Customers")
-3. Update a record of a customer in the databse.
-    ![Update Customer](images/update-a-customer.png "Update a Customer")
-    ![View Update Customers](images/update-a-customer-2.png "View Updated Customers")
-4. Delete a record of a customer in the database.
-
 
 ## How to run the project
 - Clone the repository
@@ -50,7 +40,19 @@
 - DTO Classes: [`CustomerRequest.java`](https://github.com/ShevinuM/spring-boot/blob/main/project/src/main/java/com/shevinum/CustomerRequest.java)
 - Entity Classes: [`Customer.java`](https://github.com/ShevinuM/spring-boot/blob/main/project/src/main/java/com/shevinum/Customer.java)
 - Main Class: [`Main.java`](https://github.com/ShevinuM/spring-boot/blob/main/project/src/main/java/com/shevinum/Main.java)
- 
+
+
+## Features
+1. Add a customer to the database.
+    ![Add a Customer](images/add-a-customer.png "Add a Customer")
+2. Get a list of all customers in the database.
+    ![Get Customers](images/get-customers.png "Get Customers")
+3. Update a record of a customer in the databse.
+    ![Update Customer](images/update-a-customer.png "Update a Customer")
+    ![View Update Customers](images/update-a-customer-2.png "View Updated Customers")
+4. Delete a record of a customer in the database.
+    ![Delete a Customer](images/delete-a-customer.png "Delete a Customer")
+    ![View Customers](images/delete-a-customer-2.png "View Customers")
 
 
 
