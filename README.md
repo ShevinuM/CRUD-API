@@ -5,7 +5,7 @@
   2. Dependency injection
   3. Spring MVC and N-Tier Architecture (DOA-Business-Service layers). Layering in web applications, separating concerns into the controller, service, and repository layers.
   4. Connecting to a database hosted on Docker at a local port using Spring Data JPA.
-
+- `notes` folder contain the notes i made while making the project and anyone keen on learning spring boot are free to use them for personal use.
 
 ## Technologies
 - Languages      : Java, SQL
