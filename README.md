@@ -15,11 +15,11 @@
 ## Features
 1. Add a customer to the database.
     ![Add a Customer](images/add-a-customer.png "Add a Customer")
-
 2. Get a list of all customers in the database.
-
+    ![Get Customers](images/get-customers.png "Get Customers")
 3. Update a record of a customer in the databse.
-
+    ![Update Customer](images/update-a-customer.png "Update a Customer")
+    ![View Update Customers](images/update-a-customer-2.png "View Updated Customers")
 4. Delete a record of a customer in the database.
 
 
