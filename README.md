@@ -10,7 +10,7 @@
 ## Technologies
 - Languages      : Java, SQL
 - Frameworks     : Spring (Spring Data), Spring Boot
-- Developer Tools: Docker, PostgreSQL, Postman
+- Developer Tools: Docker, PostgreSQL, Postman, IntelliJ IDEA Ultimate
 
 
 ## How to run the project
